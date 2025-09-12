@@ -1,0 +1,29 @@
+- ros_topic_name: "/world/car/model/x500_gimbal_0/link/camera_link/sensor/camera/image"
+  gz_topic_name: "/world/car/model/x500_gimbal_0/link/camera_link/sensor/camera/image"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/world/car/model/x500_gimbal_0/link/camera_link/sensor/camera/camera_info"
+  gz_topic_name: "/world/car/model/x500_gimbal_0/link/camera_link/sensor/camera/camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "gz.msgs.CameraInfo"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/x500_gimbal_0/command/gimbal_pitch"
+  gz_topic_name: "/model/x500_gimbal_0/command/gimbal_pitch"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: BIDIRECTIONAL
+
+- ros_topic_name: "/model/x500_gimbal_0/command/gimbal_roll"
+  gz_topic_name: "/model/x500_gimbal_0/command/gimbal_roll"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: BIDIRECTIONAL
+
+- ros_topic_name: "/model/x500_gimbal_0/command/gimbal_yaw"
+  gz_topic_name: "/model/x500_gimbal_0/command/gimbal_yaw"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: BIDIRECTIONAL

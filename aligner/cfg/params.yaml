@@ -1,0 +1,14 @@
+yaw_aligner:
+  ros__parameters:
+    yaw_p_gain: 0.8
+    yaw_i_gain: 0.3
+    yaw_d_gain: 0.1
+    max_yaw_speed: 0.5
+    forward_p_gain: 0.00001
+    forward_i_gain: 0.000005
+    forward_d_gain: 0.000002
+    max_forward_velocity: 0.5
+    target_timeout: 2.0
+    min_target_area: 5100
+    max_target_area: 12000
+    camera_pitch_deg: 25.0
