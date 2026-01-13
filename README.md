@@ -3,3 +3,5 @@
 - Developed a custom PX4 mode for ALIGN and FOLLOW using the PX4-ROS2 interface library.
 
 ## I couldn't think of any other names for this project T_T
+
+!!! Some packages in this code are taken from the internet and can be easily traced back to their original authors from the information in XML file of each package. !!!
